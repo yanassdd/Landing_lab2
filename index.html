@@ -1,61 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Телеграм Бот для автоматизації задач</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <meta name="description" content="Телеграм-бот для автоматизації різних задач і допомоги користувачам">
-    <meta name="keywords" content="телеграм бот, автоматизація, задачі, допомога">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
 
-    <!-- Open Graph (OG) -->
-    <meta property="og:title" content="Телеграм Бот для автоматизації задач">
-    <meta property="og:description" content="Цей телеграм-бот допомагає автоматизувати рутинні задачі та надає корисні функції для користувачів.">
-    <meta property="og:image" content="https://www.mysite.com/logo.jpg">
-    <meta property="og:url" content="https://www.mysite.com">
-    <meta property="og:type" content="website">
 
-    <!-- Schema.org JSON-LD -->
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "WebSite",
-            "name": "Телеграм Бот для автоматизації задач",
-            "description": "Автоматизація різноманітних задач через телеграм-бота."
-        }
-    </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Бакалаврська робота</title>
 
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
-    <link rel="stylesheet" href="styles/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <h1>Телеграм Бот для автоматизації задач</h1>
-    <p>Цей телеграм-бот надає різноманітні функції для автоматизації задач, від нагадувань до управління особистими даними. Він дозволяє користувачам економити час і отримувати корисну інформацію прямо в Telegram.</p>
-    
-    <header role="banner">
-        <h1 id="main-title">Телеграм Бот для автоматизації задач</h1>
-    </header>
+  <header class="bg-white shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="assets\chromeAndroid-192x192.png" alt="Університет" height="40" class="me-2">
+        Бакалаврська робота
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">Про тему</a></li>
+          <li class="nav-item"><a class="nav-link" href="#goal">Мета</a></li>
+          <li class="nav-item"><a class="nav-link" href="#methodology">Методологія</a></li>
+          <li class="nav-item"><a class="nav-link" href="#results">Результати</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Контакти</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-    <main role="main" aria-labelledby="main-title">
-        <section id="description" aria-labelledby="description-heading">
-            <h2 id="description-heading">Опис бота</h2>
-            <p>Наш телеграм-бот дозволяє автоматизувати рутинні задачі, такі як нагадування, створення списків справ і навіть управління замовленнями. Користувачі можуть налаштовувати його під свої потреби, що робить його зручним і ефективним інструментом.</p>
-        </section>
+  <main class="pt-5 mt-5">
+    <section id="hero" class="text-center py-5 bg-light">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Інтелектуальна система ефективного планування завдань на базі telegram-бота<br><small>Intelligent Task Planning System Based on a Telegram Bot
 
-        <section id="goal" aria-labelledby="goal-heading">
-            <h3 id="goal-heading">Мета бота</h3>
-            <p>Метою створення цього бота є спрощення процесу управління повсякденними задачами та збереження часу для більш важливих справ.</p>
-        </section>
+</small></h1>
+        <p><strong>Ключові слова:</strong> Планування завдань, Telegram-бот, фатоматизація робочих процесів, організація часу</p>
+      </div>
+    </section>
 
-        <section id="development-process" aria-labelledby="development-process-heading">
-            <h3 id="development-process-heading">Процес розробки</h3>
-            <p>Розробка бота включала в себе проектування зручного інтерфейсу, інтеграцію з Telegram API та тестування різних сценаріїв використання.</p>
-        </section>
-    </main>
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Актуальність теми</h2>
+        <p>Це дослідження спрямоване на розробку інтелектуальної системи для ефективного планування завдань за допомогою telegram-бота, який автоматизує організацію робочих процесів, дозволяючи користувачам зручніше керувати своїми завданнями та строками виконання.</div>
+    </section>
 
-    <footer role="contentinfo">
-        <h4 id="contact-heading">Контакти</h4>
-        <p>Для додаткової інформації, будь ласка, звертайтесь на <a href="mailto:info@yourbot.com" aria-label="Написати на електронну пошту">info@yourbot.com</a>.</p>
-    </footer>
+    <section id="goal" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-4">Мета та завдання дослідження</h2>
+        <p><strong>Мета:</strong> Метою дослідження є розробка та впровадження інтелектуальної системи для автоматизованого планування завдань, що базується на використанні Telegram-бота, з метою підвищення ефективності управління часом і покращення організації робочих процесів.</p>
+        <ul>
+          <li>Аналіз існуючих методів планування завдань та автоматизації процесів</li>
+          <li>Розробка архітектури інтелектуальної системи на базі Telegram-бота</li>
+          <li>Впровадження алгоритмів штучного інтелекту для оптимізації планування завдань</li>
+          <li>Тестування та оцінка ефективності системи на практиці</li>
+          <li>Створення інтерфейсу для користувачів для зручного взаємодії з системою</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="methodology" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Методологія</h2>
+        <p>Для розробки системи використовується Python і бібліотека Python-telegram-bot. Алгоритми штучного інтелекту автоматизують планування завдань, адаптуючи систему під потреби користувачів. Ефективність оцінюється через тестування на реальних користувачах і зворотний зв'язок.
+
+        </p>
+      </div>
+    </section>
+
+    <section id="results" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-4">Очікувані результати</h2>
+        <p>Очікується, що розроблений Telegram-бот дозволить значно зменшити час на організацію завдань, автоматизувати планування та моніторинг виконання, а також підвищити продуктивність користувачів завдяки інтелектуальним алгоритмам планування.</p>
+        <img src="assets/bot.png" alt="UI покращення" class="img-fluid rounded shadow-sm mt-4">
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Контактна інформація</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <p class="text-center">Студентка: Костенко Яна<br>Email: yana@kostenko.com<br>Телефон: +38 (099) 123-45-67</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white text-center py-3 shadow-sm">
+    <div class="container">
+      <p class="mb-0 text-muted">&copy; 2025 Костенко Яна, СумДУ</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
